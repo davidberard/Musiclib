@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title></title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.min.css">
 </head>
 <body>
 <div class="container-fluid">
@@ -41,8 +42,8 @@
 									for($i=0; $i<42;$i++) {
 										?>
 
-										<article class="col-md-2">
-											<a href="#"><img src="assets/images/cover-noimg.jpg" alt="Album Title"></a>
+										<article class="col-md-2 card-album">
+											<a href="#" class="thumbnail"><img src="assets/images/cover-noimg.jpg" alt="Album Title"></a>
 											<h3>Album Title</h3>
 											<span>
 												<span>Artist : <a href="#artist">Artist Name</a></span>
@@ -65,6 +66,9 @@
 
 <footer>footer</footer>
 </div>
+
+<!-- Vue.js -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
