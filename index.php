@@ -19,6 +19,8 @@
 					<a href="#">Artists</a>
 					<a href="#">Genre</a>
 					<a href="#">Year</a>
+					<hr>
+					<a href="#">Login</a>
 				</nav>
 			</header>
 
