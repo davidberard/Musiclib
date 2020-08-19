@@ -17,8 +17,14 @@
 					<hr>
 					<a href="#">Albums</a>
 					<a href="#">Artists</a>
-					<a href="#">Genre</a>
 					<a href="#">Year</a>
+					<span href="#">Genre</span>
+					<ul>
+						<li><a href="#">Punk</a></li>
+						<li><a href="#">Ska</a></li>
+						<li><a href="#">Metal</a></li>
+						<li><a href="#">Blues</a></li>
+					</ul>
 					<hr>
 					<a href="#">Login</a>
 				</nav>
